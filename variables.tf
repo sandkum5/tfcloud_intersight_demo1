@@ -1,3 +1,13 @@
+variable "apikey" {
+  type = string
+  description = "Intersight API Key"
+}
+
+variable "secretkey" {
+  type = string
+  description = "Intersight Secret Key"
+}
+
 variable "org_name" {
   type        = string
   description = "Organization Name"
