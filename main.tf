@@ -17,7 +17,7 @@ data "intersight_organization_organization" "org_data" {
 }
 
 resource "intersight_ntp_policy" "ntp_policy" {
-  name        = var.prefix
+  namex        = var.prefix
   description = var.ntp_description
   enabled     = var.ntp_policy_enabled
   ntp_servers = [
